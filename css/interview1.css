@@ -1,0 +1,98 @@
+body {
+  background: rgb(246,251,150);
+  color: rgb(14,40,198);
+  font-size: 20px;
+  font-family: "Mukta Mahee", sans-serif;
+  line-height: 1.6;
+}
+
+#container {
+  max-width: 650px;
+  margin: 0 12em;
+}
+
+img {
+  max-width: 100%
+}
+
+#table-of-contents {
+  position: fixed;
+  top: 1em;
+  left: 1.5em;
+  padding: 0 1em 0 1em;
+  font-size: 17px;
+  border: 5px solid rgb(14,40,198);
+}
+
+
+a {
+  color: #FF33FF;
+  text-decoration: none;
+  /* By default, links are blue and have an underline.
+     The above CSS changes both those things. */
+}
+
+a:hover {
+  color: white;
+}
+
+
+#table-of-contents a {
+  color: rgb(14,40,198);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#table-of-contents a:hover {
+  color: #FF33FF;
+}
+
+
+#table-of-contents ul {
+  padding: 0;
+  list-style-type: none;
+  /* you could also change the type of bullet with the above declaration! */
+}
+
+
+figure {
+  margin: 0;
+}
+
+
+figcaption {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+
+.highlight {
+  background: #FF33FF;
+  color: rgb(14,40,198);
+  /* or pick a different color */
+}
+
+
+h1 {
+  /* here I'm making the title not bold (by default headings are always bold)
+     centered, larger, tighter leading, and with some bottom space or margin */
+  text-align: left;
+  font-size: 7em;
+  line-height: 1.1;
+}
+
+h2 {
+  /* here I'm making my section headers very clear with a white background.
+     added some padding and removed the default bold again, and
+     added some top margin */
+  padding: 0.3em;
+  font-weight: bold;
+  color: rgb(14,40,198);
+  margin-top: 1em;
+  border: 5px solid rgb(14,40,198);
+}
+
+
+img.profile {
+  max-width: 150px;
+}
