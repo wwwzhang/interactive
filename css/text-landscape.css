@@ -79,10 +79,10 @@ a:active {
 }
 
 
-#cry ::-moz-selection {
+#cry::-moz-selection {
   background: #FFFF00;
 }
 
-#cry ::selection {
+#cry::selection {
   background: #FFFF00;
 }
