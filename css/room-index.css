@@ -1,0 +1,123 @@
+
+
+body {
+  background: #C0C0C0;
+}
+
+.index {
+  width: 500px;
+  position: relative;
+  top: 14em;
+  left: 35em;
+  margin-bottom: 10em;
+}
+
+.slice1 {
+  width: 300px;
+  position: absolute;
+  top: 16.6em;
+  left: 44.4em;
+}
+
+.slice2 {
+  width: 300px;
+  position: absolute;
+  top: 18em;
+  left: 41.5em;
+}
+
+.slice3 {
+  width: 300px;
+  position: absolute;
+  top: 21.1em;
+  left: 35.5em;
+}
+
+.slice4 {
+  width: 450px;
+  position: absolute;
+  top: 17em;
+  left: 35.7em;
+}
+
+a {
+  opacity: 0;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .index {
+    top: 10em;
+    left: 20em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slice1 {
+    top: 12.6em;
+    left: 29.4em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slice2 {
+    top: 14em;
+    left: 26.5em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slice3 {
+    top: 17.1em;
+    left: 20.5em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slice4 {
+    top: 13em;
+    left: 20.7em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .index {
+    top: 6em;
+    left: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slice1 {
+    top: 8.6em;
+    left: 11.4em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slice2 {
+    top: 10em;
+    left: 8.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slice3 {
+    top: 13.1em;
+    left: 2.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slice4 {
+    top: 9em;
+    left: 2.7em;
+  }
+}
