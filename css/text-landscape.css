@@ -86,3 +86,8 @@ a:active {
 #cry::selection {
   background: #FFFF00;
 }
+
+#cry {
+  width:400px;
+  margin: 0 auto;
+}

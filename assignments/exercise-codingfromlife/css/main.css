@@ -89,10 +89,6 @@ body {
 	border-radius: 50%;
 	top: 20%;
 }
-#rose {
-	bottom: 6em;
-	left: 5em;
-}
 
 #candle #flame {
 	background: yellow;
@@ -103,13 +99,36 @@ body {
 	left: 44%;
 }
 
+#rose {
+	bottom: 14em;
+	left: 11em;
+}
+
 #rose #wrap {
 	width: 0;
 	height: 0;
 	border-top: 100px solid rgba(255,255,255,0.2);
 	border-right: 500px solid transparent;
-	bottom: 3em;
-	left: 4em;
+}
+
+#rose #flower {
+	display:block;
+	width: 4em;
+	height: 6em;
+	background-color: red;
+	-webkit-border-radius: 3.6em 3.6em 2.4em 2.4em;
+	border-radius: 60% 60% 40% 40%;
+	transform: rotate(80deg);
+}
+
+#rose #stem {
+	width: 0;
+	height: 0;
+	border-top: 10px solid rgb(45,100,55);
+	border-right: 450px solid transparent;
+	top: 1.5em;
+	left: 2em;
+	transform: rotate(-5deg);
 }
 
 /* Drawing 2 */
@@ -118,9 +137,110 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: rgb(255, 255, 255);
-	position: absolute;
-	top: 60em
+	background: rgb(136,81,40);
+	position: relative;
+	top: 8em
+}
+
+
+#lamp {
+	height: 10em;
+	width: 10em;
+	right: 18em;
+	bottom: 13em;
+}
+
+#lamp #light {
+	height: 85%;
+	width: 100%;
+	top: 12.5%;
+	border-radius: 50%;
+	background: rgb(242, 252, 167);
+	box-shadow: 0px 0px 40px rgba(242, 252, 167, 1);
+}
+
+#orange2 {
+	height: 7em;
+	width: 8em;
+	border-radius: 50%;
+	background: orange;
+	bottom: 13.5em;
+	right: 11em;
+}
+
+#box1 {
+	background: rgb(128,75,40);
+  width: 10em;
+  height: 13em;
+  top: 11em;
+  transform: skew(2deg)rotate(2deg);
+  left: 8em;
+}
+
+#box2 {
+	background: #c37d40cf;
+  width: 7em;
+  height: 13em;
+  top: 11.05em;
+  transform: skew(-2deg)rotate(-2deg);
+  left: 18em;
+}
+
+#box3 {
+	background: rgb(128,75,40);
+  width: 10em;
+  height: 6em;
+  top: 5.5em;
+  transform: skew(-12deg)rotate(2deg);
+  left: 8.6em;
+}
+
+#box4 {
+	background: #c37d40cf;
+  width: 7em;
+  height: 5em;
+  top: 6.1em;
+  transform: skew(-10deg)rotate(-2deg);
+  left: 18.4em;
+}
+
+#box1 #label {
+	width: 95%;
+	height: 95%;
+	left: 2.5%;
+	background: white;
+}
+
+#rose2 {
+	bottom: 14em;
+	left: 31em;
+}
+
+#rose2 #wrap2 {
+	width: 0;
+	height: 0;
+	border-top: 90px solid rgba(255,255,255,0.2);
+	border-right: 350px solid transparent;
+}
+
+#rose2 #flower2 {
+	display:block;
+	width: 4em;
+	height: 6em;
+	background-color: red;
+	-webkit-border-radius: 3.6em 3.6em 2.4em 2.4em;
+	border-radius: 60% 60% 40% 40%;
+	transform: rotate(80deg);
+}
+
+#rose2 #stem2 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid rgb(45,100,55);
+	border-right: 300px solid transparent;
+	top: 1.5em;
+	left: 2em;
+	transform: rotate(-8deg);
 }
 
 
