@@ -1,0 +1,174 @@
+.background img {
+  width: 98%;
+  padding: 1em;
+}
+
+
+
+body {
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2, h3 {
+  color: white;
+  display: inline;
+}
+
+.inner-container, .monologues {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+.left {
+  width: 50%;
+  padding: 1em;
+}
+
+.right {
+  width: 50%;
+  padding: 1em;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  text-align: left;
+  font-size: 20pt;
+  background-color: black;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.inner-container img {
+  width: 100%;
+}
+
+p {
+  color: white;
+  font-size: 16pt;
+  line-height: 28pt;
+  padding-left: 1em;
+}
+
+.content img {
+  float: right;
+  width: 400px;
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+.inner-container1 img {
+  float: right;
+  width: 60%;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.inner-container1 {
+  padding-top: 3em;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  background: white;
+}
+
+.inner-container1 p {
+  padding-left: 0em;
+  color: black;
+}
+
+.inner-container1 h2, .inner-container1 h3 {
+  color: black;
+  display: inline;
+}
+
+.inner-container1 a :hover {
+  background-color: black;
+  color: white;
+}
+
+.inner-container2 img {
+  float: right;
+  width: 40%;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.inner-container2 {
+  padding-top: 3em;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  background: black;
+}
+
+.inner-container2 p {
+  padding-left: 0em;
+  color: white;
+}
+
+.inner-container2 h2, h3 {
+  color: white;
+  display: inline;
+}
+
+.inner-container2 a :hover {
+  background-color: white;
+  color: black;
+}
+
+.monologues h2 {
+  color: white;
+  display: block;
+}
+
+.title {
+  width: 25%;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+.title a :hover {
+  background-color: white;
+  color: black;
+}
+
+.text {
+  width: 75%;
+  padding: 1em;
+  padding-right: 2em;
+}
+
+#name {
+  display: block;
+  font-size: 40pt;
+  position: absolute;
+  top: 3em;
+  color: white;
+  background-color: black;
+}
