@@ -1,0 +1,108 @@
+div {
+  position: fixed;
+  width: 5%;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+img {
+  width: 100%;
+  position: fixed;
+  z-index: -5;
+}
+
+p {
+  display: inline-block;
+  position: fixed;
+  top: 0.2em;
+  font-size: 30pt;
+  font-family: 'Francois One', sans-serif;
+  color: rgb(253, 84, 246);
+  z-index: 5;
+}
+
+#column-one {
+  left: 0;
+}
+#column-two {
+  left: 5%;
+}
+#column-three {
+  left: 10%;
+}
+
+#column-four {
+  left: 15%;
+}
+#column-five {
+  left: 20%;
+}
+#column-six {
+  left: 25%;
+}
+
+#column-seven {
+  left: 30%;
+}
+#column-eight {
+  left: 35%;
+}
+#column-nine {
+  left: 40%;
+}
+
+#column-ten {
+  left: 45%;
+}
+#column-eleven {
+  left: 50%;
+}
+#column-twelve {
+  left: 55%;
+}
+
+#column-thirteen {
+  left: 60%;
+}
+#column-fourteen {
+  left: 65%;
+}
+#column-fifteen {
+  left: 70%;
+}
+
+#column-sixteen {
+  left: 75%;
+}
+#column-seventeen {
+  left: 80%;
+}
+#column-eighteen {
+  left: 85%;
+}
+
+#column-nineteen {
+  left: 90%;
+}
+#column-twenty {
+  left: 95%;
+}
+
+#button {
+  display: inline-block;
+  background: rgb(253, 84, 246);
+  width: 10em;
+  height: 2em;
+  cursor: pointer;
+  font-family: 'Francois One', sans-serif;
+  font-size: 18pt;
+  position: relative;
+  top: 5em;
+  padding-top: 0.4em;
+  text-align: center;
+  color: white;
+}

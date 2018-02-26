@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Jumbled</title>
+  <link rel="stylesheet" href="../css/slot-machine.css" />
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="column-one"></div>
+  <div id="column-two"></div>
+  <div id="column-three"></div>
+  <div id="column-four"></div>
+  <div id="column-five"></div>
+  <div id="column-six"></div>
+  <div id="column-seven"></div>
+  <div id="column-eight"></div>
+  <div id="column-nine"></div>
+  <div id="column-ten"></div>
+  <div id="column-eleven"></div>
+  <div id="column-twelve"></div>
+  <div id="column-thirteen"></div>
+  <div id="column-fourteen"></div>
+  <div id="column-fifteen"></div>
+  <div id="column-sixteen"></div>
+  <div id="column-seventeen"></div>
+  <div id="column-eighteen"></div>
+  <div id="column-nineteen"></div>
+  <div id="column-twenty"></div>
+
+
+      <!-- // Show original image when the page loads -->
+  <img src="../images/slot-machine/origin.jpg">
+
+  <p>Tehse wrods may look lkie nosnesne, but yuo can raed tehm, cna't yuo?</p>
+
+  <div id="button">
+    Jumbled Agnes Martin
+  </div>
+
+  <script src="../js/jquery.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    // Define the images
+    var bg = ['bg1.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg', 'bg7.jpg', 'work1.jpg', 'work2.jpg'];
+    var face = ['face1.jpg', 'face2.jpg', 'face3.jpg', 'face4.jpg', 'face5.jpg', 'face6.jpg', 'work3.jpg', 'work4.jpg'];
+    var gb = ['gb1.jpg', 'gb2.jpg', 'gb3.jpg', 'gb4.jpg', 'gb5.jpg', 'gb6.jpg', 'gb7.jpg', 'work5.jpg', 'work6.jpg'];
+
+    console.log(bg);
+
+    // Define function to generate the random images
+    function generateRandomImage(){
+      var place_one = Math.floor(Math.random() * bg.length);
+      var place_two = Math.floor(Math.random() * bg.length);
+      var place_three = Math.floor(Math.random() * bg.length);
+      var place_four = Math.floor(Math.random() * bg.length);
+      var place_five = Math.floor(Math.random() * bg.length);
+      var place_six = Math.floor(Math.random() * bg.length);
+      var place_seven = Math.floor(Math.random() * bg.length);
+      var place_eight = Math.floor(Math.random() * face.length);
+      var place_nine = Math.floor(Math.random() * face.length);
+      var place_ten = Math.floor(Math.random() * face.length);
+      var place_eleven = Math.floor(Math.random() * face.length);
+      var place_twelve = Math.floor(Math.random() * face.length);
+      var place_thirteen = Math.floor(Math.random() * face.length);
+      var place_fourteen = Math.floor(Math.random() * gb.length);
+      var place_fifteen = Math.floor(Math.random() * gb.length);
+      var place_sixteen = Math.floor(Math.random() * gb.length);
+      var place_seventeen = Math.floor(Math.random() * gb.length);
+      var place_eighteen = Math.floor(Math.random() * gb.length);
+      var place_nineteen = Math.floor(Math.random() * gb.length);
+      var place_twenty = Math.floor(Math.random() * gb.length);
+
+      console.log("The first color is " + place_one);
+      console.log("The second color is " + place_two);
+      console.log("The third color is " + place_three);
+
+      $('#column-one').css("background-image", "url(../images/slot-machine/" + bg[place_one] + ")" );
+      $('#column-two').css("background-image", "url(../images/slot-machine/" + bg[place_two] + ")" );
+      $('#column-three').css("background-image", "url(../images/slot-machine/" + bg[place_three] + ")" );
+      $('#column-four').css("background-image", "url(../images/slot-machine/" + bg[place_four] + ")" );
+      $('#column-five').css("background-image", "url(../images/slot-machine/" + bg[place_five] + ")" );
+      $('#column-six').css("background-image", "url(../images/slot-machine/" + bg[place_six] + ")" );
+      $('#column-seven').css("background-image", "url(../images/slot-machine/" + bg[place_seven] + ")" );
+
+      $('#column-eight').css("background-image", "url(../images/slot-machine/" + face[place_eight] + ")" );
+      $('#column-nine').css("background-image", "url(../images/slot-machine/" + face[place_nine] + ")" );
+      $('#column-ten').css("background-image", "url(../images/slot-machine/" + face[place_ten] + ")" );
+      $('#column-eleven').css("background-image", "url(../images/slot-machine/" + face[place_eleven] + ")" );
+      $('#column-twelve').css("background-image", "url(../images/slot-machine/" + face[place_twelve] + ")" );
+      $('#column-thirteen').css("background-image", "url(../images/slot-machine/" + face[place_thirteen] + ")" );
+
+      $('#column-fourteen').css("background-image", "url(../images/slot-machine/" + gb[place_fourteen] + ")" );
+      $('#column-fifteen').css("background-image", "url(../images/slot-machine/" + gb[place_fifteen] + ")" );
+      $('#column-sixteen').css("background-image", "url(../images/slot-machine/" + gb[place_sixteen] + ")" );
+      $('#column-seventeen').css("background-image", "url(../images/slot-machine/" + gb[place_seventeen] + ")" );
+      $('#column-eighteen').css("background-image", "url(../images/slot-machine/" + gb[place_eighteen] + ")" );
+      $('#column-nineteen').css("background-image", "url(../images/slot-machine/" + gb[place_nineteen] + ")" );
+      $('#column-twenty').css("background-image", "url(../images/slot-machine/" + gb[place_twenty] + ")" );
+
+
+    }
+
+    $( "#button" ).hover(function() {
+        $( this ).fadeOut( 100 );
+        $( this ).fadeIn( 300 );
+      });
+
+    // Buttom click event
+    $('#button').click(function(){
+      generateRandomImage();
+    });
+
+  });
+
+  </script>
+
+</body>
+
+</html>

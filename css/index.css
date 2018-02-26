@@ -1,6 +1,10 @@
+
 body {
-  background: #7FFFD4;
+  font-family: 'Space Mono', monospace;
+  background-color: rgb(236, 236, 236);
+  color: rgb(253, 84, 246);
 }
+
 
 .webring {
   position: fixed;
@@ -12,4 +16,26 @@ body {
 hr {
   width: 500px;
   margin: 2em 0;
+}
+
+#button {
+  background: yellow;
+  width: 8em;
+  height: 2em;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(253, 84, 246);
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
