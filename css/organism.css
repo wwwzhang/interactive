@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #52FFDE, #FFFFFF);
+}
+
+body.on {
+	background: linear-gradient(to bottom, #52FFDE, #FFFFFF);
+}
+
+body.off {
+  background: linear-gradient(to bottom, #032CA0, #000000);
+}
+
+p {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  font-size: 2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+#head {
+  background: #F8FBAF;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin:1em;
+  position: absolute;
+  bottom: 85%;
+  right: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#rectangle1 {
+  background: #F8FBAF;
+  width: 5em;
+  height: 85%;
+  margin:1em;
+  text-align: center;
+  position: absolute;
+  bottom: 2em;
+  right: 50%;
+  transition: all 0.3s ease;
+}
+
+#head .eye1 {
+  background: black;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.5em;
+  right: -0.1em;
+  border-radius: 50%;
+}
+
+#head .eye2 {
+  background: black;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: -0.5em;
+  right: -4em;
+  border-radius: 50%;
+}
+
+#clock {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  width: 80px;
+  height: 80px;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@keyframes slidein {
+  0% {
+    bottom: 85%;
+  }
+  100% {
+    bottom: 75%;
+  }
+}
+
+body.off #head {
+  background: #FFFF00;
+  animation-name: slidein;
+  animation-duration: 0.18s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    height: 85%;
+  }
+  100% {
+    height: 75%;
+  }
+}
+
+body.off #rectangle1 {
+  background: #FFFF00;
+  animation-name: stretch;
+  animation-duration: 0.18s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+body.off #clock {
+  color: #aaa;
+  border-color: #aaa;
+}
+
+
+body.off #head .eye1 {
+  background: #FF00C1;
+}
+
+body.off #head .eye2 {
+  background: #FF00C1;
+}
