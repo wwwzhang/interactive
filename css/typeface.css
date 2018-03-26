@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  font-size: 3.5em;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  font-weight: bold;
+}
+
+.letter {
+  width: 242px;
+  height: 480px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.box {
+  width: 22px;
+  height: 28px;
+  float: left;
+}
+
+.filled {
+  background: black;
+}
