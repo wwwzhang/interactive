@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   $('.A .filled').click(function(){
     var smallnumber = Math.random();
-    var randomnumber = Math.floor(smallnumber * 30 + 1);
+    var randomnumber = Math.floor(smallnumber * 30 + 0.1);
     $('.title .A').css('font-size', randomnumber + "em");
     var vid = document.getElementById("a");
     vid.volume = smallnumber;
@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   $('.B .filled').click(function(){
     var smallnumber = Math.random();
-    var randomnumber = Math.floor(smallnumber * 30 + 1);
+    var randomnumber = Math.floor(smallnumber * 30 + 0.1);
     $('.title .B').css('font-size', randomnumber + "em");
     var vid = document.getElementById("b");
     vid.volume = smallnumber;
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
   $('.C .filled').click(function(){
     var smallnumber = Math.random();
-    var randomnumber = Math.floor(smallnumber * 30 + 1);
+    var randomnumber = Math.floor(smallnumber * 30 + 0.1);
     $('.title .C').css('font-size', randomnumber + "em");
     var vid = document.getElementById("c");
     vid.volume = smallnumber;
@@ -39,7 +39,7 @@ $(document).ready(function(){
 
   $('.D .filled').click(function(){
     var smallnumber = Math.random();
-    var randomnumber = Math.floor(smallnumber * 30 + 1);
+    var randomnumber = Math.floor(smallnumber * 30 + 0.1);
     $('.title .D').css('font-size', randomnumber + "em");
     var vid = document.getElementById("d");
     vid.volume = smallnumber;
