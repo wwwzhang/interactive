@@ -1,6 +1,7 @@
-body {
+.title{
   font-family: sans-serif;
   font-size: 3.5em;
+  transition: font-size 3s ease;
   -webkit-text-stroke: 1px black;
   color: white;
   font-weight: bold;
@@ -18,8 +19,50 @@ body {
   width: 22px;
   height: 28px;
   float: left;
+  transition: width 1s ease;
+  transition: height 1s ease;
+}
+
+.title {
+  margin-left: 2%;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+.typewriter {
+  position: fixed;
+  font-family: sans-serif;
+  font-size: 3em;
+  right: 2%;
+  z-index: 10;
+}
+
+.abocide {
+  position: fixed;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  left: 2%;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .filled {
-  background: black;
+  cursor: pointer;
+}
+
+.A, .B, .C, .D {
+  transition: font-size 3s ease;
 }
