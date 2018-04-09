@@ -26,7 +26,9 @@
 
 #text-input {
   position: fixed;
-  bottom: 1em;
+	left: 0.5em;
+  bottom: 0.5em;
+	font-size: 3em;
 }
 
 .word {
