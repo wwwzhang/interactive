@@ -5,15 +5,16 @@
     display: inline-block;
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
+    font-weight: lighter;
     position: fixed;
-    top: 2vh;
-    left: 2vw;
+    top: 10pt;
+    left: 0pt;
     background-color: black;
     color: white;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   img {
@@ -25,7 +26,7 @@
   .time {
     display: block;
     font-family: 'Helvetica', sans-serif;
-    font-size: 450px;
+    font-size: 370px;
     font-weight: lighter;
     text-align: center;
     padding-bottom: 10px;

@@ -140,39 +140,51 @@ img {
   #clockArchive {
     display: inline-block;
     font-family: 'Helvetica', sans-serif;
-    font-size: 30px;
+    font-size: 85px;
+    font-weight: lighter;
     position: fixed;
-    left: 154px;
+    padding-top: 70px;
+  }
+
+  .printing {
+    font-family: 'Helvetica', sans-serif;
+    display: block;
+    font-weight: lighter;
+    color: black;
+    font-size: 85px;
+    position: fixed;
   }
 
   .archive {
     display: inline-block;
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
-    position: absolute;
+    font-weight: lighter;
+    position: fixed;
     bottom: 5vh;
-    left: 36vw;
+    left: 0px;
     background-color: black;
     color: white;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .all {
     display: inline-block;
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
+    font-weight: lighter;
     position: fixed;
     bottom: 5vh;
-    left: 36vw;
+    left: 0px;
     background-color: black;
     color: white;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   img {
