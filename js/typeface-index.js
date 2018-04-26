@@ -10,6 +10,10 @@ $(document).ready(function(){
     $('.box').css('width', 22+scrollposition*0.05 + "px");
 });
 
+//   $('.A .filled').hover(function(){
+//     $(this).css("-webkit-text-stroke", "1px red");
+// });
+
   $('.A .filled').click(function(){
     var smallnumber = Math.random();
     var randomnumber = Math.floor(smallnumber * 30 + 0.1);
